@@ -1,0 +1,25 @@
+{
+  "name": "wetest",
+  "version": "1.0.0",
+  "description": "A test task for the google io android app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test_app"
+  },
+  "keywords": [
+    "googleio",
+    "appium",
+    "test"
+  ],
+  "author": "raj",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/appium-service": "^6.6.3",
+    "@wdio/cli": "^6.6.4",
+    "@wdio/cucumber-framework": "^6.6.4",
+    "@wdio/local-runner": "^6.6.4",
+    "@wdio/spec-reporter": "^6.6.3",
+    "@wdio/sync": "^6.6.4",
+    "appium": "^1.18.3"
+  }
+}
